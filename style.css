@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background-image: url(https://i.pinimg.com/236x/a2/70/f6/a270f6bfa1c4e3a38f45fa14eb810c88.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: #07575b;
+}
+/* .body-card {
+  background-color: cadetblue;
+} */
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.contain {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: space-around;
+}
+.auto-form {
+  display: inline-block;
+  margin: 1%;
+  padding: 3rem;
+  background-color: #66a5ad;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.field {
+  border: 0;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+/* .field:first-child:hover {
+  background-color: #07575b;
+  color: black;
+  transition: 0, 3s;
+} */
+.submit {
+  margin-top: 1rem;
+  padding: 10px;
+  color: beige;
+  background-color: #003b46;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.field:last-child {
+  text-align: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formlist {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* margin-left: 30px; */
+  /* width: 100%;
+  height: 40%; */
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  width: 20% !important;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.main-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #66a5ad;
+  display: none;
+}
+
+.inner-modal {
+  width: 450px;
+  height: 400px;
+  background-color: #07575b;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  text-align: end;
+}
+.modal-content {
+  background-color: #66a5ad;
+}
